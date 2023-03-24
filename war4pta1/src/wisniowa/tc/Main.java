@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         Team team = new Team(
                 new Warrior(
-                        "Aragorn",
+                        "Paladin",
                         0,
                         0,
                         KeyEvent.VK_LEFT,//goLeft
@@ -22,6 +22,7 @@ public class Main {
                 new Archer("Legolas1", 200, 200),
                 new Archer("Legolas2", 300, 300)
         );
+        //comment!!!!!!
 
         MainWindow mw = new MainWindow(Constants.WINDOW_WIDTH, Constants.WINDOW_HEIGHT, team);
     }
